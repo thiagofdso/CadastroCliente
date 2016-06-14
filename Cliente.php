@@ -6,38 +6,144 @@
  * Date: 12/06/2016
  * Time: 10:04
  */
-class Cliente
+abstract class Cliente
 {
-    public $nome;
-    public $sexo;
-    public $cpf;
-    public $endereco;
-    public $idade;
-    public $telefone;
-    public $datanasc;
-    public $email;
+    private$nome;
+    private$sexo;
+    private$endereco;
+    private$idade;
+    private$telefone;
+    private$datanasc;
+    private$email;
 
-    public function  __construct($nome,$sexo,$idade,$datanasc,$cpf,$telefone,$endereco,$email)
+    public function  __construct($nome,$sexo,$idade,$datanasc,$documento,$telefone,$endereco,$email)
     {
         $this->nome = $nome;
         $this->sexo = $sexo;
         $this->idade = $idade;
         $this->datanasc = $datanasc;
-        $this->cpf = $cpf;
+        $this->setDocumento($documento);
         $this->telefone = $telefone;
         $this->endereco = $endereco;
         $this->email = $email;
     }
+    public abstract function setDocumento($documento);
+    public abstract function getDocumento();
+    public abstract function mostrarCliente();
 
-    public function mostrarCliente(){
-        echo "<table class='table'><tr><td>Nome</td></td><td>".$this->nome."</td></tr>
-<tr><td>Sexo</td></td><td>".$this->sexo."</td></tr>
-<tr><td>Idade</td></td><td>".$this->idade."</td></tr>
-<tr><td>Data Nascimento</td></td><td>".$this->datanasc."</td></tr>
-<tr><td>CPF</td></td><td>".$this->cpf."</td></tr>
-<tr><td>Telefone</td></td><td>".$this->telefone."</td></tr>
-<tr><td>Endereço</td></td><td>".$this->endereco."</td></tr>
-<tr><td>Email</td></td><td>".$this->email."</td></tr></table>";
-
+    /**
+     * @return mixed
+     */
+    public function getNome()
+    {
+        return $this->nome;
     }
+
+    /**
+     * @param mixed $nome
+     */
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSexo()
+    {
+        return $this->sexo;
+    }
+
+    /**
+     * @param mixed $sexo
+     */
+    public function setSexo($sexo)
+    {
+        $this->sexo = $sexo;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getEndereco()
+    {
+        return $this->endereco;
+    }
+
+    /**
+     * @param mixed $endereco
+     */
+    public function setEndereco($endereco)
+    {
+        $this->endereco = $endereco;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getIdade()
+    {
+        return $this->idade;
+    }
+
+    /**
+     * @param mixed $idade
+     */
+    public function setIdade($idade)
+    {
+        $this->idade = $idade;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTelefone()
+    {
+        return $this->telefone;
+    }
+
+    /**
+     * @param mixed $telefone
+     */
+    public function setTelefone($telefone)
+    {
+        $this->telefone = $telefone;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDatanasc()
+    {
+        return $this->datanasc;
+    }
+
+    /**
+     * @param mixed $datanasc
+     */
+    public function setDatanasc($datanasc)
+    {
+        $this->datanasc = $datanasc;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
+    /**
+     * @param mixed $email
+     */
+    public function setEmail($email)
+    {
+        $this->email = $email;
+    }
+
+
+
+
 }

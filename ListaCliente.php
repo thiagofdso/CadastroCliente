@@ -31,8 +31,9 @@ class ListaCliente
         <th><a href='index.php?ordem=".$ordem."'>
                 <span class='glyphicon glyphicon-sort' aria-hidden='true'></span>
          </a></th>
+         <th>Tipo Cliente</th>
         <th>Nome</th>
-        <th>CPF</th>
+        <th>CPF/CNPJ</th>
         <th></th>
     </tr>
     </thead>
@@ -44,8 +45,12 @@ class ListaCliente
             for($i=0;$i<10;$i++) {
                 echo "<tr>";
                 echo "<th scoope='row'>" . ($i+1) . "</th>";
-                echo "<td>" . $this->lista[$i]->nome . "</td>";
-                echo "<td>" . $this->lista[$i]->cpf . "</td>";
+                if($this->lista[$i] instanceof ClientePessoaFisica)
+                    echo "<td>Pessoa Física</td>";
+                else
+                    echo "<td>Pessoa Jurídica</td>";
+                echo "<td>" . $this->lista[$i]->getNome() . "</td>";
+                echo "<td>" . $this->lista[$i]->getDocumento() . "</td>";
                 echo "<td><button type='button' class='btn btn-link'  data-toggle='modal' data-target='#myModal' rel=". $i .">Detalhar</button></td>";
                 echo "</tr>";
             }
