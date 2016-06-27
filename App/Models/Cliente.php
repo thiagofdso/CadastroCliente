@@ -6,6 +6,7 @@
  * Date: 12/06/2016
  * Time: 10:04
  */
+namespace App\Models;
 abstract class Cliente
 {
     private$nome;

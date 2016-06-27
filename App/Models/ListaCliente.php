@@ -6,7 +6,8 @@
  * Date: 12/06/2016
  * Time: 12:58
  */
-
+namespace App\Models;
+use  App\Models\Builder\ClienteBuilder;
 class ListaCliente
 {
     public $lista;

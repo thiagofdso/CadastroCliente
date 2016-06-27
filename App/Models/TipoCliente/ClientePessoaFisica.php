@@ -6,73 +6,60 @@
  * Date: 14/06/2016
  * Time: 11:50
  */
-class ClientePessoaJuridica extends Cliente implements  PontuacaoCliente,ClienteDiferenciado
+namespace App\Models\TipoCliente;
+use  App\Models\Cliente;
+use  App\Models\InterfaceCliente\PontuacaoCliente;
+use  App\Models\InterfaceCliente\ClienteDiferenciado;
+class ClientePessoaFisica extends Cliente implements  PontuacaoCliente,ClienteDiferenciado
 {
 
-    private $empresa;
-    private $cnpj;
+    private $cpf;
     private $enderecoEspecifico;
 
-    public function __construct($empresa,$nome,$sexo,$idade,$datanasc,$documento,$telefone,$endereco,$email)
+    public function __construct($nome,$sexo,$idade,$datanasc,$documento,$telefone,$endereco,$email)
     {
-        $this->empresa = $empresa;
         parent::__construct($nome,$sexo,$idade,$datanasc,$documento,$telefone,$endereco,$email);
     }
-
-    /**
-     * @return mixed
-     */
-    public function getEmpresa()
-    {
-        return $this->empresa;
-    }
-
-    /**
-     * @param mixed $empresa
-     */
-    public function setEmpresa($empresa)
-    {
-        $this->empresa = $empresa;
-    }
-
 
     public function setDocumento($documento)
     {
         // TODO: Implement setDocumento() method.
-        $this->cnpj = $documento;
+        $this->cpf = $documento;
     }
 
     public function getDocumento()
     {
         // TODO: Implement getDocumento() method.
-        return $this->cnpj;
+        return $this->cpf;
     }
-    public function mostrarCliente(){
+
+    public function mostrarCliente()
+    {
         if($this->enderecoEspecifico!='')
             $campoEndereco="<tr><td>Endereço de Cobrança</td></td><td>".$this->getEnderecoEspecifico()."</td></tr>";
         else
             $campoEndereco="";
-        echo "<table class='table'><tr><td>Empresa</td></td><td>".$this->empresa."</td></tr>
-<tr><td>Titular</td></td><td>".$this->getNome()."</td></tr>
+        // TODO: Implement mostrarCliente() method.
+        echo "<table class='table'><tr><td>Nome</td></td><td>".$this->getNome()."</td></tr>
 <tr><td>Sexo</td></td><td>".$this->getSexo()."</td></tr>
 <tr><td>Idade</td></td><td>".$this->getIdade()."</td></tr>
 <tr><td>Data Nascimento</td></td><td>".$this->getDatanasc()."</td></tr>
-<tr><td>CNPJ</td></td><td>".$this->getDocumento()."</td></tr>
+<tr><td>CPF</td></td><td>".$this->getDocumento()."</td></tr>
 <tr><td>Telefone</td></td><td>".$this->getTelefone()."</td></tr>
 <tr><td>Endereço</td></td><td>".$this->getEndereco()."</td></tr>".$campoEndereco.
 "<tr><td>Email</td></td><td>".$this->getEmail()."</td></tr>
-<tr><td>Pontuação</td></td><td>".$this->getImportancia()." estrelas</td></tr></table>";
-
+<tr><td>Pontuação</td><td>".$this->getImportancia()." estrelas</td></tr></table>";
     }
 
     public function getImportancia()
     {
         // TODO: Implement getImportancia() method.
         if($this->getSexo()=="M")
-            return 3;
+            return 1;
         else
-            return 4;
+            return 2;
     }
+
     public function setEnderecoEspecifico($enderecoEspecifico)
     {
         // TODO: Implement setEnderecoEspecifico() method.
@@ -85,4 +72,6 @@ class ClientePessoaJuridica extends Cliente implements  PontuacaoCliente,Cliente
         // TODO: Implement getEnderecoEspecifico() method.
         return $this->enderecoEspecifico;
     }
+
+
 }

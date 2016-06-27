@@ -6,7 +6,9 @@
  * Date: 12/06/2016
  * Time: 10:14
  */
-
+namespace  App\Models\Builder;
+use  App\Models\TipoCliente\ClientePessoaFisica;
+use  App\Models\TipoCliente\ClientePessoaJuridica;
 class ClienteBuilder
 {
     public function getClientList(){

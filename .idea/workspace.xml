@@ -2,8 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59f2f7e7-484d-40eb-ab18-a015b0c3972a" name="Default" comment="Versão do Projeto 2">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/Builder/ClienteBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/Cliente.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/InterfaceCliente/ClienteDiferenciado.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/InterfaceCliente/PontuacaoCliente.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/ListaCliente.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/TipoCliente/ClientePessoaFisica.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/TipoCliente/ClientePessoaJuridica.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Views/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Views/detalhe.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/npm.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cliente.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ClienteBuilder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ClienteDiferenciado.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ClientePessoaFisica.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ClientePessoaJuridica.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ListaCliente.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PontuacaoCliente.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/detalhe.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teste.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClienteDiferenciado.php" afterPath="$PROJECT_DIR$/ClienteDiferenciado.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="CadastroCliente.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,95 +86,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PontuacaoCliente.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PontuacaoCliente.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="111">
+              <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+              <folding>
+                <element signature="e#1533#1615#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="detalhe.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detalhe.php">
+        <entry file="file://$PROJECT_DIR$/App/Views/detalhe.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClienteDiferenciado.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ClienteDiferenciado.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClienteBuilder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClienteBuilder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="192" selection-start-line="16" selection-start-column="169" selection-end-line="16" selection-end-column="192" />
-              <folding>
-                <element signature="e#7#89#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientePessoaFisica.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClientePessoaFisica.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="65" selection-end-column="43" />
-              <folding>
-                <marker date="1465922051175" expanded="true" signature="1048:1385" ph="..." />
-                <marker date="1465922051175" expanded="true" signature="1048:1450" ph="..." />
-                <marker date="1465922051175" expanded="true" signature="1048:1483" ph="..." />
-                <marker date="1465922051175" expanded="true" signature="1048:1484" ph="..." />
-                <marker date="1465922051175" expanded="true" signature="1048:1530" ph="..." />
-                <marker date="1465922051175" expanded="true" signature="1048:1561" ph="..." />
-                <marker date="1465922051175" expanded="true" signature="1048:1587" ph="..." />
-                <marker date="1465922051175" expanded="true" signature="1048:1641" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientePessoaJuridica.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClientePessoaJuridica.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="81" selection-start-line="61" selection-start-column="81" selection-end-line="61" selection-end-column="81" />
-              <folding>
-                <marker date="1465922051176" expanded="true" signature="1310:1398" ph="..." />
-                <marker date="1465922051176" expanded="true" signature="1310:1455" ph="..." />
-                <marker date="1465922051176" expanded="true" signature="1310:1513" ph="..." />
-                <marker date="1465922051176" expanded="true" signature="1310:1582" ph="..." />
-                <marker date="1465922051176" expanded="true" signature="1310:1709" ph="..." />
-                <marker date="1465922051176" expanded="true" signature="1310:1774" ph="..." />
-                <marker date="1465922051176" expanded="true" signature="1310:1807" ph="..." />
-                <marker date="1465922051176" expanded="true" signature="1310:1808" ph="..." />
-                <marker date="1465922051176" expanded="true" signature="1310:1854" ph="..." />
-                <marker date="1465922051176" expanded="true" signature="1310:1885" ph="..." />
-                <marker date="1465922051176" expanded="true" signature="1310:1970" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -136,12 +126,41 @@
         <option value="$PROJECT_DIR$/Cliente.php" />
         <option value="$PROJECT_DIR$/ListaCliente.php" />
         <option value="$PROJECT_DIR$/PontuacaoCliente.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/detalhe.php" />
         <option value="$PROJECT_DIR$/ClientePessoaFisica.php" />
         <option value="$PROJECT_DIR$/ClientePessoaJuridica.php" />
         <option value="$PROJECT_DIR$/ClienteBuilder.php" />
         <option value="$PROJECT_DIR$/ClienteDiferenciado.php" />
+        <option value="$PROJECT_DIR$/models/builder/ClienteBuilder.php" />
+        <option value="$PROJECT_DIR$/models/Interfaces/ClienteDiferenciado.php" />
+        <option value="$PROJECT_DIR$/models/Interfaces/PontuacaoCliente.php" />
+        <option value="$PROJECT_DIR$/models/InterfaceCliente/PontuacaoCliente.php" />
+        <option value="$PROJECT_DIR$/models/InterfaceCliente/ClienteDiferenciado.php" />
+        <option value="$PROJECT_DIR$/models/TipoCliente/ClientePessoaFisica.php" />
+        <option value="$PROJECT_DIR$/models/TipoCliente/ClientePessoaJuridica.php" />
+        <option value="$PROJECT_DIR$/models/ListaCliente.php" />
+        <option value="$PROJECT_DIR$/models/Builder/ClienteBuilder.php" />
+        <option value="$PROJECT_DIR$/views/detalhe.php" />
+        <option value="$PROJECT_DIR$/Models/Cliente.php" />
+        <option value="$PROJECT_DIR$/Models/TipoCliente/ClientePessoaFisica.php" />
+        <option value="$PROJECT_DIR$/Models/TipoCliente/ClientePessoaJuridica.php" />
+        <option value="$PROJECT_DIR$/Models/InterfaceCliente/ClienteDiferenciado.php" />
+        <option value="$PROJECT_DIR$/Models/InterfaceCliente/PontuacaoCliente.php" />
+        <option value="$PROJECT_DIR$/Models/Builder/ClienteBuilder.php" />
+        <option value="$PROJECT_DIR$/Models/ListaCliente.php" />
+        <option value="$PROJECT_DIR$/Views/detalhe.php" />
+        <option value="$PROJECT_DIR$/App/Models/Builder/ClienteBuilder.php" />
+        <option value="$PROJECT_DIR$/App/Models/InterfaceCliente/ClienteDiferenciado.php" />
+        <option value="$PROJECT_DIR$/App/Models/InterfaceCliente/PontuacaoCliente.php" />
+        <option value="$PROJECT_DIR$/App/Models/TipoCliente/ClientePessoaFisica.php" />
+        <option value="$PROJECT_DIR$/App/Models/TipoCliente/ClientePessoaJuridica.php" />
+        <option value="$PROJECT_DIR$/App/Models/Cliente.php" />
+        <option value="$PROJECT_DIR$/App/Models/ListaCliente.php" />
+        <option value="$PROJECT_DIR$/App/autoload.php" />
+        <option value="$PROJECT_DIR$/autoload.php" />
+        <option value="$PROJECT_DIR$/App/Views/autoload.php" />
+        <option value="$PROJECT_DIR$/App/Views/detalhe.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -150,6 +169,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -183,6 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -204,7 +227,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,6 +234,16 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\CadastroCliente\App\Views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\CadastroCliente\App" />
+      <recent name="C:\wamp64\www\CadastroCliente\App\Views" />
+      <recent name="C:\wamp64\www\CadastroCliente" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -248,6 +280,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="59f2f7e7-484d-40eb-ab18-a015b0c3972a" name="Default" comment="" />
@@ -257,12 +292,14 @@
       <updated>1465736543146</updated>
       <workItem from="1465736544388" duration="17040000" />
       <workItem from="1465914495798" duration="6780000" />
-      <workItem from="1465994771456" duration="95000" />
+      <workItem from="1465994771456" duration="690000" />
+      <workItem from="1465995488057" duration="289000" />
+      <workItem from="1467025956145" duration="4935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23915000" />
+    <option name="totallyTimeSpent" value="29734000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,13 +312,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1616" height="886" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.206875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43972835" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -293,6 +329,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -316,6 +353,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -324,7 +369,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="Versão do Projeto 2" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/App/Models/Builder/ClienteBuilder.php</url>
+          <line>16</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -332,7 +385,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="39" />
-          <folding />
+          <folding>
+            <element signature="e#1533#1615#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -349,199 +404,6 @@
         <state relative-caret-position="136">
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClienteBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="e#7#89#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientePessoaFisica.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="36" selection-end-column="30" />
-          <folding>
-            <marker date="1465922051175" expanded="true" signature="1048:1385" ph="..." />
-            <marker date="1465922051175" expanded="true" signature="1048:1450" ph="..." />
-            <marker date="1465922051175" expanded="true" signature="1048:1483" ph="..." />
-            <marker date="1465922051175" expanded="true" signature="1048:1484" ph="..." />
-            <marker date="1465922051175" expanded="true" signature="1048:1530" ph="..." />
-            <marker date="1465922051175" expanded="true" signature="1048:1561" ph="..." />
-            <marker date="1465922051175" expanded="true" signature="1048:1587" ph="..." />
-            <marker date="1465922051175" expanded="true" signature="1048:1641" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientePessoaJuridica.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="81" selection-start-line="61" selection-start-column="81" selection-end-line="61" selection-end-column="81" />
-          <folding>
-            <marker date="1465922051176" expanded="true" signature="1310:1398" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1455" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1513" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1582" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1709" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1774" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1807" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1808" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1854" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1885" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1970" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClienteDiferenciado.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListaCliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detalhe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="18847" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teste.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="2" selection-start-column="6" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="5" column="1921" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="4739" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListaCliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="27" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PontuacaoCliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detalhe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientePessoaJuridica.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="81" selection-start-line="61" selection-start-column="81" selection-end-line="61" selection-end-column="81" />
-          <folding>
-            <marker date="1465922051176" expanded="true" signature="1310:1398" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1455" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1513" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1582" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1709" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1774" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1807" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1808" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1854" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1885" ph="..." />
-            <marker date="1465922051176" expanded="true" signature="1310:1970" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClienteBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="192" selection-start-line="16" selection-start-column="169" selection-end-line="16" selection-end-column="192" />
-          <folding>
-            <element signature="e#7#89#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientePessoaFisica.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="65" selection-end-column="43" />
-          <folding>
-            <marker date="1465922051175" expanded="true" signature="1048:1385" ph="..." />
-            <marker date="1465922051175" expanded="true" signature="1048:1450" ph="..." />
-            <marker date="1465922051175" expanded="true" signature="1048:1483" ph="..." />
-            <marker date="1465922051175" expanded="true" signature="1048:1484" ph="..." />
-            <marker date="1465922051175" expanded="true" signature="1048:1530" ph="..." />
-            <marker date="1465922051175" expanded="true" signature="1048:1561" ph="..." />
-            <marker date="1465922051175" expanded="true" signature="1048:1587" ph="..." />
-            <marker date="1465922051175" expanded="true" signature="1048:1641" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,6 +412,187 @@
         <state relative-caret-position="204">
           <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClienteBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="192" selection-start-line="16" selection-start-column="169" selection-end-line="16" selection-end-column="192" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientePessoaFisica.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="65" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientePessoaJuridica.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="81" selection-start-line="61" selection-start-column="81" selection-end-line="61" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="39" />
+          <folding>
+            <element signature="e#1533#1615#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PontuacaoCliente.php" />
+    <entry file="file://$PROJECT_DIR$/detalhe.php" />
+    <entry file="file://$PROJECT_DIR$/ClienteDiferenciado.php" />
+    <entry file="file://$PROJECT_DIR$/ClienteBuilder.php" />
+    <entry file="file://$PROJECT_DIR$/ClientePessoaFisica.php" />
+    <entry file="file://$PROJECT_DIR$/ClientePessoaJuridica.php" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="39" />
+          <folding>
+            <element signature="e#1533#1615#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PontuacaoCliente.php" />
+    <entry file="file://$PROJECT_DIR$/detalhe.php" />
+    <entry file="file://$PROJECT_DIR$/ClienteBuilder.php" />
+    <entry file="file://$PROJECT_DIR$/ClientePessoaFisica.php" />
+    <entry file="file://$PROJECT_DIR$/ClientePessoaJuridica.php" />
+    <entry file="file://$PROJECT_DIR$/ClienteDiferenciado.php" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="31" />
+          <folding>
+            <element signature="e#1533#1615#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListaCliente.php" />
+    <entry file="file://$PROJECT_DIR$/detalhe.php" />
+    <entry file="file://$PROJECT_DIR$/Cliente.php" />
+    <entry file="file://$PROJECT_DIR$/js/jquery.min.js" />
+    <entry file="file://$PROJECT_DIR$/teste.php" />
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js" />
+    <entry file="file://$PROJECT_DIR$/ListaCliente.php" />
+    <entry file="file://$PROJECT_DIR$/Cliente.php" />
+    <entry file="file://$PROJECT_DIR$/PontuacaoCliente.php" />
+    <entry file="file://$PROJECT_DIR$/detalhe.php" />
+    <entry file="file://$PROJECT_DIR$/ClientePessoaJuridica.php" />
+    <entry file="file://$PROJECT_DIR$/ClienteBuilder.php" />
+    <entry file="file://$PROJECT_DIR$/ClientePessoaFisica.php" />
+    <entry file="file://$PROJECT_DIR$/ClienteDiferenciado.php" />
+    <entry file="file://$PROJECT_DIR$/App/Models/Builder/ClienteBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/InterfaceCliente/ClienteDiferenciado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/InterfaceCliente/PontuacaoCliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/TipoCliente/ClientePessoaJuridica.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <marker date="1467028404844" expanded="true" signature="1474:2134" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/TipoCliente/ClientePessoaFisica.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <marker date="1467028399565" expanded="true" signature="1212:1805" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/ListaCliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <marker date="1467028414354" expanded="true" signature="594:943" ph="..." />
+            <marker date="1467028414354" expanded="true" signature="616:943" ph="..." />
+            <marker date="1467028414354" expanded="true" signature="651:931" ph="..." />
+            <marker date="1467028414354" expanded="true" signature="660:918" ph="..." />
+            <marker date="1467028414354" expanded="true" signature="673:811" ph="..." />
+            <marker date="1467028414354" expanded="true" signature="710:806" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/Cliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/detalhe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+          <folding>
+            <element signature="e#1533#1615#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

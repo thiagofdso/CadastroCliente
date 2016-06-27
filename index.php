@@ -1,7 +1,7 @@
 <title>Cadastro de Cliente</title>
-<link href="css/bootstrap.css" rel="stylesheet">
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.js"></script>
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
 <style>
     .tabela{
         padding-top: 80px;;
@@ -55,13 +55,10 @@
  * Date: 12/06/2016
  * Time: 10:40
  */
-require_once "Cliente.php";
-require_once "ClienteDiferenciado.php";
-require_once "PontuacaoCliente.php";
-require_once "ClientePessoaFisica.php";
-require_once "ClientePessoaJuridica.php";
-require_once "ClienteBuilder.php";
-require_once "ListaCliente.php";
+include_once 'App/autoload.php';
+
+
+use App\Models\ListaCliente;
 if(empty($_GET))
     $ordem = 2;
 else
@@ -73,7 +70,6 @@ $clientes = new ListaCliente();
 
 $clientes->criarTabela($ordem);
 ?>
-
 <input type="hidden" id="ordem" value="<?=$ordem?>">
     </tbody>
 </table>
@@ -84,7 +80,8 @@ $clientes->criarTabela($ordem);
             var link = $(e.relatedTarget);
             var indice = link.attr("rel");
             var ordem = $("#ordem").val();
-            $(this).find(".modal-body").load("detalhe.php?indice="+indice+"&ordem="+ordem);
+
+            $(this).find(".modal-body").load("App/Views/detalhe.php?indice="+indice+"&ordem="+ordem);
 
         });
     });
