@@ -7,15 +7,15 @@
  * Time: 12:58
  */
 namespace App\Models;
-use  App\Models\Builder\ClienteBuilder;
 use App\Models\TipoCliente\ClientePessoaFisica;
+use App\DAO\DaoCliente;
 class ListaCliente
 {
     public $lista;
     public function __construct()
     {
-        $builder = new ClienteBuilder();
-        $this->lista = $builder->getClientList();
+        $dao =DaoCliente::getInstance();
+        $this->lista = $dao->all();
     }
 
     public function getCliente($indice,$ordem){

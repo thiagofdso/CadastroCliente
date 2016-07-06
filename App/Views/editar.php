@@ -3,7 +3,7 @@ include_once 'autoload.php';
 use App\DAO\DaoCliente;
 use App\Models\TipoCliente\ClientePessoaFisica;
 use App\Models\TipoCliente\ClientePessoaJuridica;
-$dao = new DaoCliente();
+$dao =DaoCliente::getInstance();
 $cliente=$dao->get($_GET['id']);
 ?>
 <div class="container col-md-12 " style="margin-top:80px;">

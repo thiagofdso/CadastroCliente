@@ -2,6 +2,6 @@
 use App\DAO\DaoCliente;
 
 include_once 'autoload.php';
-$dao = new DaoCliente();
+$dao =DaoCliente::getInstance();
 $dao->Deletar($_GET['id']);
 header("location:../../index.php");

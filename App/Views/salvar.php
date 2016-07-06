@@ -1,12 +1,10 @@
 <?php
 use App\DAO\DaoCliente;
-
+use App\Util\ClienteUtil;
 include_once 'autoload.php';
-$dao = new DaoCliente();
+$dao =DaoCliente::getInstance();
 
-$cliente = $dao->populaCliente($_POST);
-if($cliente->getId())
-    $dao->Editar($cliente);
-else
-    $dao->Inserir($cliente);
+$cliente = ClienteUtil::populaCliente($_POST);
+$dao->persist($cliente);
+$dao->flush();
 header("location:../../index.php");
