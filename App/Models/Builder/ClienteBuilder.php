@@ -9,10 +9,12 @@
 namespace  App\Models\Builder;
 use  App\Models\TipoCliente\ClientePessoaFisica;
 use  App\Models\TipoCliente\ClientePessoaJuridica;
+use App\DAO\DaoCliente;
+
 class ClienteBuilder
 {
     public function getClientList(){
-        $array = array(
+/*        $array = array(
             0 => new ClientePessoaFisica("Lucca Gustavo Pereira","M",22,"17/03/1994","281.070.842-84","(54) 2954-6029","Avenida Luís Pessoa da Silva Neto 1376","lucca_g_pereira@bemarius.com.br"),
             1 => (new ClientePessoaFisica("Beatriz Mariane Isabelle Barros","F",22,"15/01/1994","950.206.693-69","(95) 2857-1632","Rua Nilo Melo","bmbarros@verdana.com.br"))->setEnderecoEspecifico("Rua Melo Cruz"),
             2 => new ClientePessoaJuridica("BANPARA SA","Luiz Heitor Otávio Araújo","M",27,"15/02/1989","78.645.100/0001-62","(95) 2703-9613","Rua Maria das Graças Paulino","luiz_h_araujo@landovale.com.br"),
@@ -25,6 +27,7 @@ class ClienteBuilder
             9 => new ClientePessoaFisica("Letícia Alana Mendes","F",30,"12/03/1986","516.496.683-25","(92) 2584-1650","Rua 3","lamendes@igly.com.br")
 
         );
-        return $array;
+        return $array;*/
+        return (new DaoCliente())->all();
     }
 }

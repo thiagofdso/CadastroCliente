@@ -9,6 +9,7 @@
 namespace App\Models;
 abstract class Cliente
 {
+    private$id;
     private$nome;
     private$sexo;
     private$endereco;
@@ -31,6 +32,22 @@ abstract class Cliente
     public abstract function setDocumento($documento);
     public abstract function getDocumento();
     public abstract function mostrarCliente();
+
+    /**
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param mixed $nome
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
 
     /**
      * @return mixed

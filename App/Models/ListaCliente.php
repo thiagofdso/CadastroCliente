@@ -8,6 +8,7 @@
  */
 namespace App\Models;
 use  App\Models\Builder\ClienteBuilder;
+use App\Models\TipoCliente\ClientePessoaFisica;
 class ListaCliente
 {
     public $lista;
@@ -25,7 +26,7 @@ class ListaCliente
 
     public function criarTabela($ordem)
     {
-        echo "<div class='container-fluid tabela'>
+        echo "
 <table class='table'>
     <thead class ='titulo-tabela'>
     <tr>
@@ -43,7 +44,7 @@ class ListaCliente
         if($ordem==1)
             $this->lista=array_reverse($this->lista);
 
-            for($i=0;$i<10;$i++) {
+            for($i=0;$i<count($this->lista);$i++) {
                 echo "<tr>";
                 echo "<th scoope='row'>" . ($i+1) . "</th>";
                 if($this->lista[$i] instanceof ClientePessoaFisica)
@@ -52,7 +53,7 @@ class ListaCliente
                     echo "<td>Pessoa Jurídica</td>";
                 echo "<td>" . $this->lista[$i]->getNome() . "</td>";
                 echo "<td>" . $this->lista[$i]->getDocumento() . "</td>";
-                echo "<td><button type='button' class='btn btn-link'  data-toggle='modal' data-target='#myModal' rel=". $i .">Detalhar</button></td>";
+                echo "<td><button type='button' class='btn btn-link'  data-toggle='modal' data-target='#myModal' rel=". $i .">Detalhar</button><a type='button' rel='editar' class='btn btn-link'  href='App/Views/editar.php?id=".$this->lista[$i]->getId()."'>Editar</a><a type='button' class='btn btn-link'  href='App/Views/excluir.php?id=".$this->lista[$i]->getId()."'>Excluir</a></td>";
                 echo "</tr>";
             }
     }
